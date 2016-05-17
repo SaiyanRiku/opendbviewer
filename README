@@ -1,0 +1,30 @@
+This project is an open source viewer for SQL database based on GTK+ and Python.
+
+It will allow you to explore and edit database.
+Features
+
+    Support many engine :
+        SQLite3 (via python sqlite3 module)
+        MS Access (via python win32 AdoDB)
+    Explore many connection at same time with tab control
+    Explore many table with tab control :
+        View table structure
+        View table data and with or without using the fast filter
+    Add unlimited SQL worksheet with SQL helpers :
+        SQL syntax highlighting (thanks to GtkSourceView)
+        SQL reformatting (thanks to python-sqlparse)
+
+Requirements
+
+    Python 2.6 :
+        Windows : http://www.python.org/download/releases/
+        Linux : install the python2.6 package on your distribution
+    pyGTK 2.24 (with GtkSourceView)
+        Windows : http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/
+        Linux : install the python2.6-gtk package on your distribution
+    pyWin32 extensions (for win32AdoDB connection)
+
+
+Launch
+   ./opendbviewer.sh (on linux)
+   ./openDbViewer.bat (on windows)
